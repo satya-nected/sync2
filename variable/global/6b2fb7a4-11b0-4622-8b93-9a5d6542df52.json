@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-19T09:27:56.607Z",
+  "updatedAt": "2025-11-19T09:27:56.607Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "6b2fb7a4-11b0-4622-8b93-9a5d6542df52",
+  "name": "bool",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "boolean",
+  "value": {
+   "data": true
+  }
+ }
+}
