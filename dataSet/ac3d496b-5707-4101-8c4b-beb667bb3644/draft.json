@@ -1,0 +1,150 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2025-11-19T09:37:43.824Z",
+  "updatedAt": "2025-11-19T09:39:26.50131Z",
+  "isDeleted": false,
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "2025-11-19T09:39:26.499Z",
+  "entityId": "ac3d496b-5707-4101-8c4b-beb667bb3644",
+  "name": "DS_GSHEET",
+  "commitId": "commit-e4f9d157-902c-4a9c-9e52-fb208d6bd3cd",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-19 09:37:43",
+   "timeStamp": "2025-11-19T09:37:43.823535478Z"
+  },
+  "fields": {
+   "ColumnM": {
+    "ColumnName": "M",
+    "DataType": "string",
+    "Order": 13,
+    "ExecutedValue": "DateTime1"
+   },
+   "ColumnO": {
+    "ColumnName": "O",
+    "DataType": "string",
+    "Order": 15,
+    "ExecutedValue": "Listt"
+   },
+   "ColumnB": {
+    "ColumnName": "B",
+    "DataType": "string",
+    "Order": 2,
+    "ExecutedValue": "Age"
+   },
+   "ColumnD": {
+    "ColumnName": "D",
+    "DataType": "string",
+    "Order": 4,
+    "ExecutedValue": "Extra"
+   },
+   "ColumnH": {
+    "ColumnName": "H",
+    "DataType": "string",
+    "Order": 8,
+    "ExecutedValue": "testing"
+   },
+   "ColumnI": {
+    "ColumnName": "I",
+    "DataType": "string",
+    "Order": 9,
+    "ExecutedValue": "Date"
+   },
+   "ColumnK": {
+    "ColumnName": "K",
+    "DataType": "string",
+    "Order": 11,
+    "ExecutedValue": "JoiningDate"
+   },
+   "ColumnN": {
+    "ColumnName": "N",
+    "DataType": "string",
+    "Order": 14,
+    "ExecutedValue": "DateTime2"
+   },
+   "ColumnE": {
+    "ColumnName": "E",
+    "DataType": "string",
+    "Order": 5,
+    "ExecutedValue": "Data"
+   },
+   "ColumnF": {
+    "ColumnName": "F",
+    "DataType": "string",
+    "Order": 6,
+    "ExecutedValue": "for"
+   },
+   "ColumnJ": {
+    "ColumnName": "J",
+    "DataType": "string",
+    "Order": 10,
+    "ExecutedValue": "BDAY"
+   },
+   "ColumnL": {
+    "ColumnName": "L",
+    "DataType": "string",
+    "Order": 12,
+    "ExecutedValue": "NewDate"
+   },
+   "ColumnA": {
+    "ColumnName": "A",
+    "DataType": "string",
+    "Order": 1,
+    "ExecutedValue": "Name"
+   },
+   "ColumnC": {
+    "ColumnName": "C",
+    "DataType": "string",
+    "Order": 3,
+    "ExecutedValue": "Salary"
+   },
+   "ColumnG": {
+    "ColumnName": "G",
+    "DataType": "string",
+    "Order": 7,
+    "ExecutedValue": "unmapped"
+   }
+  },
+  "params": {
+   "file": {
+    "value": "1lI5G1xHg18JwP04ibnkQPT0pCYgPE6r68B3URMfrc98",
+    "label": "Employees"
+   },
+   "sheet": {
+    "label": "Sheet1",
+    "value": 0
+   },
+   "isShared": true
+  },
+  "version": "draft",
+  "connectorId": "cd2010ac-fbb6-45ab-8ae2-6a9ae17bc263",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-e4f9d157-902c-4a9c-9e52-fb208d6bd3cd",
+   "entityType": "dataSet",
+   "entityId": "ac3d496b-5707-4101-8c4b-beb667bb3644",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "cd2010ac-fbb6-45ab-8ae2-6a9ae17bc263",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-19T09:39:24.968608Z",
+   "updatedAt": "2025-11-19T09:39:24.968608Z"
+  }
+ ]
+}
