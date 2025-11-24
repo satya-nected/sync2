@@ -3,14 +3,14 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-21T07:26:33.885Z",
-  "updatedAt": "2025-11-21T07:26:41.094015Z",
+  "updatedAt": "2025-11-21T10:34:15.565209Z",
   "isDeleted": false,
   "testedAt": "2025-11-21T07:26:41.093Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "dacfcbb4-0de2-4545-b8ba-762278b6eb43",
   "name": "SR",
   "commitId": "commit-32d8f581-5663-45c9-af85-5d7a42fb91a9",
-  "status": "tested",
+  "status": "draft",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
@@ -33,7 +33,18 @@
   },
   "action": {
    "then": {
-    
+    "actionNode": {
+     "actionData_action_1": {
+      "name": "action_1",
+      "connectorId": "05410367-44cc-4e28-9f41-8f1b5dce290a",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "query": ""
+      }
+     }
+    },
+    "firstActionNode": "actionData_action_1"
    },
    "else": {
     
@@ -95,5 +106,20 @@
   },
   "isDemo": false,
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-32d8f581-5663-45c9-af85-5d7a42fb91a9",
+   "entityType": "rule",
+   "entityId": "dacfcbb4-0de2-4545-b8ba-762278b6eb43",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_1",
+   "dependencyType": "connector",
+   "dependencyId": "05410367-44cc-4e28-9f41-8f1b5dce290a",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-21T10:34:15.570042Z",
+   "updatedAt": "2025-11-21T10:34:15.570042Z"
+  }
+ ]
 }
