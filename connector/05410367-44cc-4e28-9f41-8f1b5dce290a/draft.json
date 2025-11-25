@@ -3,10 +3,10 @@
  "category": "postgres",
  "data": {
   "createdAt": "2025-11-21T10:33:09.051Z",
-  "updatedAt": "2025-11-21T10:34:01.383085Z",
+  "updatedAt": "2025-11-24T12:31:29.613302Z",
   "isDeleted": false,
   "entityId": "05410367-44cc-4e28-9f41-8f1b5dce290a",
-  "name": "locall",
+  "name": "local",
   "category": "database",
   "isSource": true,
   "isAction": true,
