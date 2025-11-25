@@ -3,7 +3,7 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-21T07:26:33.885Z",
-  "updatedAt": "2025-11-21T10:34:15.565209Z",
+  "updatedAt": "2025-11-25T07:33:00.677282Z",
   "isDeleted": false,
   "testedAt": "2025-11-21T07:26:41.093Z",
   "publishedAt": "0001-01-01T00:00:00Z",
@@ -89,7 +89,6 @@
    "startAt": "0001-01-01T00:00:00Z",
    "endAt": "0001-01-01T00:00:00Z",
    "api": {
-    "isEnabled": true,
     "isPrivate": true
    },
    "isEnabled": true,
@@ -97,7 +96,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },
@@ -119,7 +118,7 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-21T10:34:15.570042Z",
-   "updatedAt": "2025-11-21T10:34:15.570042Z"
+   "updatedAt": "2025-11-25T07:33:00.690083Z"
   }
  ]
 }
