@@ -1,0 +1,127 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "live": true,
+ "data": {
+  "createdAt": "2025-11-24T06:47:35.072Z",
+  "updatedAt": "2025-11-26T09:59:53.954Z",
+  "isDeleted": false,
+  "testedAt": "2025-11-26T09:59:47.942Z",
+  "publishedAt": "2025-11-26T09:59:53.944Z",
+  "entityId": "deb3fd1e-ec7c-4c3d-9fbe-e9a94a2b4e0d",
+  "name": "DT",
+  "commitId": "commit-bb79545a-2fe4-45f2-bb4b-9c70fe36decc",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Forked from 0.30",
+   "description": "v4",
+   "timeStamp": "2025-11-26T09:59:53.942Z"
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "firstOutputData": "output_np0rEU",
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "results": {
+    "result_i1xJho": {
+     "dataType": "numeric",
+     "keyName": "keyName"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03",
+   "firstResult": "result_i1xJho"
+  },
+  "action": {
+   "then": {
+    "outputData": {
+     "output_np0rEU": {
+      "name": "keyName",
+      "dataType": "numeric",
+      "value": 90,
+      "executedValue": 90
+     }
+    }
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "any",
+     "dataType": "generic",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "systemVar",
+     "dataType": "generic",
+     "nodeType": "params",
+     "attribute": "NULL",
+     "siblingIndex": 1
+    }
+   }
+  },
+  "description": "",
+  "policy": "first",
+  "version": "0.40",
+  "type": "decisionTable",
+  "dataSetId": "",
+  "settings": {
+   "startAt": "2025-11-26T00:00:00+05:30",
+   "endAt": "0001-01-01T00:00:00Z",
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "schedule": [
+    {
+     "startAt": "2025-11-26T00:00:00+05:30",
+     "endAt": "0001-01-01T00:00:00Z",
+     "spec": {
+      "minute": "1"
+     },
+     "unit": "minute",
+     "isEnabled": true
+    }
+   ],
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": "d"
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
