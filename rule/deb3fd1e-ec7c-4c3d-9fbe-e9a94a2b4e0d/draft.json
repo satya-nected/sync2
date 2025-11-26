@@ -1,7 +1,7 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
- "live": true,
+ "live": false,
  "data": {
   "createdAt": "2025-11-24T06:47:35.072Z",
   "updatedAt": "2025-11-26T09:59:53.954Z",
