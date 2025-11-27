@@ -1,15 +1,16 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-27T10:47:29.332Z",
-  "updatedAt": "2025-11-27T10:50:01.524274Z",
+  "updatedAt": "2025-11-27T10:50:01.473Z",
   "isDeleted": false,
   "testedAt": "2025-11-27T10:49:57.219Z",
   "publishedAt": "2025-11-27T10:50:01.464Z",
   "entityId": "59278152-50f3-485e-b8fe-45c1c0e1e34c",
   "name": "SR",
-  "commitId": "commit-9fe64098-85d1-41f8-8802-463e3474f7be",
+  "commitId": "commit-7a5f4892-645a-4dd7-a9d6-581cb728aa01",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,

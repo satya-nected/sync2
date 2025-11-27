@@ -13,7 +13,7 @@
   "commitId": "commit-2c25f345-baa7-47e1-9b08-994b3324a023",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": true,
+  "isLive": false,
   "commitInfo": {
    "title": "Created at 2025-11-27 10:47:29",
    "description": "v1",
@@ -43,6 +43,13 @@
   },
   "conditions": {
    "nodes": {
+    "rule_03": {
+     "sourceType": "systemVar",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "ResumeId",
+     "siblingIndex": 1
+    },
     "rule_01": {
      "operator": "and",
      "nodeType": "group",
@@ -60,13 +67,6 @@
      "leftNode": [
       "rule_03"
      ],
-     "siblingIndex": 1
-    },
-    "rule_03": {
-     "sourceType": "systemVar",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "ResumeId",
      "siblingIndex": 1
     }
    }
