@@ -13,7 +13,7 @@
   "commitId": "commit-2c25f345-baa7-47e1-9b08-994b3324a023",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": false,
+  "isLive": true,
   "commitInfo": {
    "title": "Created at 2025-11-27 10:47:29",
    "description": "v1",
