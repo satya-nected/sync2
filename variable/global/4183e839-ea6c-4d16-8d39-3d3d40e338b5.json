@@ -1,0 +1,27 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-12-05T12:28:48.38Z",
+  "updatedAt": "2025-12-05T12:28:48.38Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "4183e839-ea6c-4d16-8d39-3d3d40e338b5",
+  "name": "name",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "string",
+  "value": {
+   "data": "satya Prakash",
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}
