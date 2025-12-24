@@ -3,22 +3,24 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-12-05T10:57:45.08Z",
-  "updatedAt": "2025-12-05T10:57:55.695297Z",
+  "updatedAt": "2025-12-09T10:41:36.349311Z",
   "isDeleted": false,
-  "testedAt": "2025-12-05T10:57:51.539Z",
+  "testedAt": "2025-12-09T10:41:36.348Z",
   "publishedAt": "2025-12-05T10:57:55.682Z",
   "entityId": "8fe79d38-8d52-4391-bd22-e46a69908818",
+  "version": "draft",
   "name": "sr",
-  "commitId": "commit-2c8b770e-0083-45b4-852f-6d561a8faf0f",
-  "status": "published",
-  "lastVersion": "draft",
-  "isLive": true,
+  "commitId": "commit-f10d7eb4-eda3-4203-9be8-c553fb7c91bc",
+  "status": "tested",
+  "lastVersion": "0.10",
+  "isLive": false,
   "commitInfo": {
-   "title": "Created at 2025-12-05 10:57:45",
-   "description": "v1",
-   "timeStamp": "2025-12-05T10:57:55.68Z"
+   "title": "Forked from 0.10",
+   "timeStamp": "2025-12-08T06:25:56.703135Z"
   },
-  "customInput": null,
+  "customInput": {
+   
+  },
   "ruleChain": null,
   "decisionTable": {
    "rows": {
@@ -124,7 +126,6 @@
   "ruleSetPolicy": "",
   "description": "",
   "policy": "first",
-  "version": "0.10",
   "comment": "",
   "type": "decisionTable",
   "dataSetId": "",
@@ -143,7 +144,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },
@@ -156,5 +157,15 @@
   "isDemo": false,
   "warnings": [],
   "schemaVersion": "0.1.1"
- }
+ },
+ "entityTags": [
+  {
+   "isDeleted": false,
+   "createdAt": "2025-12-12T11:54:05.446923Z",
+   "updatedAt": "2025-12-24T06:32:28.613522Z",
+   "entityType": "rule",
+   "entityId": "8fe79d38-8d52-4391-bd22-e46a69908818",
+   "tagId": "c6ccb102-2a8a-40b0-894d-a7f8325914c1"
+  }
+ ]
 }
