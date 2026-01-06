@@ -1,0 +1,53 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2025-12-31T11:03:59.431Z",
+  "updatedAt": "2025-12-31T11:03:59.431Z",
+  "isDeleted": false,
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "1217388c-5919-4950-a35f-cdeb8ba23480",
+  "version": "draft",
+  "name": "test",
+  "commitId": "commit-0c42c802-15ed-4f99-b2ee-e03b36b22739",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-12-31 11:03:59",
+   "timeStamp": "2025-12-31T11:03:59.431699Z"
+  },
+  "fields": null,
+  "description": "",
+  "query": "",
+  "params": {
+   
+  },
+  "connectorId": "88b95230-d13b-46c3-9e93-ef1a9a08ee41",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2025-12-31T11:04:03.545547Z",
+   "updatedAt": "2025-12-31T11:04:03.545547Z",
+   "entityCommitId": "commit-0c42c802-15ed-4f99-b2ee-e03b36b22739",
+   "entityType": "dataSet",
+   "entityId": "1217388c-5919-4950-a35f-cdeb8ba23480",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "88b95230-d13b-46c3-9e93-ef1a9a08ee41",
+   "dependencyVersion": "live"
+  }
+ ]
+}
