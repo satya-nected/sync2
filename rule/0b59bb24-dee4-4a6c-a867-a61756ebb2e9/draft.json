@@ -159,8 +159,16 @@
  "entityTags": [
   {
    "isDeleted": false,
+   "createdAt": "2026-01-06T12:11:28.012698Z",
+   "updatedAt": "2026-01-06T12:11:28.012698Z",
+   "entityType": "rule",
+   "entityId": "0b59bb24-dee4-4a6c-a867-a61756ebb2e9",
+   "tagId": "24f7b068-d25a-4a08-aa76-fdda3d17c14b"
+  },
+  {
+   "isDeleted": false,
    "createdAt": "2025-12-29T07:58:35.852557Z",
-   "updatedAt": "2026-01-06T11:37:06.00812Z",
+   "updatedAt": "2026-01-06T12:11:28.000163Z",
    "entityType": "rule",
    "entityId": "0b59bb24-dee4-4a6c-a867-a61756ebb2e9",
    "tagId": "d641a0d0-62b8-4491-8f91-e76dfd5969b5"
