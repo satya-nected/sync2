@@ -1,0 +1,12 @@
+{
+ "entityType": "tag",
+ "data": {
+  "createdAt": "2025-12-12T06:59:41.239Z",
+  "updatedAt": "2026-01-06T09:16:37.637677Z",
+  "isDeleted": false,
+  "entityId": "e771f30f-0bd8-4c24-adcc-32e4f2cfa524",
+  "name": "approval_tag",
+  "color": "#FFB3C0",
+  "type": "P1"
+ }
+}
