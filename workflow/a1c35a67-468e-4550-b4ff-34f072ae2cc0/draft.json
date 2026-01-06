@@ -138,14 +138,6 @@
  "entityTags": [
   {
    "isDeleted": false,
-   "createdAt": "2026-01-06T12:11:34.872713Z",
-   "updatedAt": "2026-01-06T12:11:34.872713Z",
-   "entityType": "workflow",
-   "entityId": "a1c35a67-468e-4550-b4ff-34f072ae2cc0",
-   "tagId": "24f7b068-d25a-4a08-aa76-fdda3d17c14b"
-  },
-  {
-   "isDeleted": false,
    "createdAt": "2026-01-05T10:52:15.394791Z",
    "updatedAt": "2026-01-06T12:11:34.869897Z",
    "entityType": "workflow",
