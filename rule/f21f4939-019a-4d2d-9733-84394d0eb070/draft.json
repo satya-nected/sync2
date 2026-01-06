@@ -1,59 +1,38 @@
 {
  "entityType": "rule",
- "category": "decisionTable",
+ "category": "simpleRule",
  "data": {
-  "createdAt": "2025-12-05T10:57:45.08Z",
-  "updatedAt": "2025-12-24T10:29:28.161807Z",
+  "createdAt": "2025-12-29T05:51:21.393Z",
+  "updatedAt": "2026-01-06T09:18:33.743951Z",
   "isDeleted": false,
-  "testedAt": "2025-12-09T10:41:36.348Z",
-  "publishedAt": "2025-12-05T10:57:55.682Z",
-  "entityId": "8fe79d38-8d52-4391-bd22-e46a69908818",
+  "testedAt": "2026-01-06T09:18:33.743Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "f21f4939-019a-4d2d-9733-84394d0eb070",
   "version": "draft",
-  "name": "sr--",
-  "commitId": "commit-f10d7eb4-eda3-4203-9be8-c553fb7c91bc",
+  "name": "sr2",
+  "commitId": "commit-8ea82894-8982-408d-a102-4deab16916f7",
   "status": "tested",
-  "lastVersion": "0.10",
+  "lastVersion": "",
   "isLive": false,
   "commitInfo": {
-   "title": "Forked from 0.10",
-   "timeStamp": "2025-12-08T06:25:56.703135Z"
+   "title": "Created at 2025-12-29 05:51:21",
+   "timeStamp": "2025-12-29T05:51:21.393169Z"
   },
-  "customInput": {
-   
-  },
+  "customInput": null,
   "ruleChain": null,
   "decisionTable": {
-   "rows": {
-    "rule_01": {
- "nextId": "",
- "prevId": "",
- "firstOutputData": "",
- "isEnabled": true
-}
-   },
-   "properties": {
-    "rule_03": {
- "nextId": "",
- "prevId": "",
- "type": "simpleCondition"
-}
-   },
-   "results": {
-    
-   },
-   "firstRow": "rule_01",
-   "firstProperty": "rule_03",
+   "rows": null,
+   "properties": null,
+   "results": null,
+   "firstRow": "",
+   "firstProperty": "",
    "firstResult": "",
    "firstAggOutputData": ""
   },
   "action": {
    "then": {
-    "outputData": {
-     
-    },
-    "actionNode": {
-     
-    },
+    "outputData": null,
+    "actionNode": null,
     "firstOutputData": "",
     "firstActionNode": ""
    },
@@ -70,7 +49,7 @@
  "value": null,
  "sourceType": "",
  "name": "",
- "operator": "and",
+ "operator": "",
  "dataType": "",
  "nodeType": "group",
  "attribute": "",
@@ -85,7 +64,7 @@
  "returnType": ""
 },
     "rule_02": {
- "value": "",
+ "value": null,
  "sourceType": "",
  "name": "",
  "operator": "any",
@@ -104,14 +83,14 @@
 },
     "rule_03": {
  "value": null,
- "sourceType": "systemVar",
+ "sourceType": "globalVar",
  "name": "",
  "operator": "",
  "dataType": "string",
  "nodeType": "params",
- "attribute": "Environment",
+ "attribute": "name",
  "query": "",
- "parent": "",
+ "parent": "rule_02",
  "children": null,
  "leftNode": null,
  "rightNode": null,
@@ -119,15 +98,15 @@
  "returnType": ""
 }
    },
-   "startNode": ""
+   "startNode": "rule_01"
   },
   "firstCustomInput": "",
   "firstRuleChain": "",
   "ruleSetPolicy": "",
   "description": "",
-  "policy": "first",
+  "policy": "",
   "comment": "",
-  "type": "decisionTable",
+  "type": "simpleRule",
   "dataSetId": "",
   "ruleSet": null,
   "settings": {
@@ -144,7 +123,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": "d"
+     "Unit": ""
     },
     "CacheKeys": ""
    },
@@ -158,22 +137,37 @@
   "warnings": [],
   "schemaVersion": "0.1.1"
  },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2025-12-29T05:51:25.501144Z",
+   "updatedAt": "2025-12-29T05:51:26.847159Z",
+   "entityCommitId": "commit-8ea82894-8982-408d-a102-4deab16916f7",
+   "entityType": "rule",
+   "entityId": "f21f4939-019a-4d2d-9733-84394d0eb070",
+   "entityVersion": "draft",
+   "entityNodeId": "name",
+   "dependencyType": "variable",
+   "dependencyId": "4183e839-ea6c-4d16-8d39-3d3d40e338b5",
+   "dependencyVersion": "live"
+  }
+ ],
  "entityTags": [
   {
    "isDeleted": false,
-   "createdAt": "2026-01-06T10:54:14.073534Z",
-   "updatedAt": "2026-01-06T10:54:14.073534Z",
+   "createdAt": "2025-12-29T05:55:36.951576Z",
+   "updatedAt": "2026-01-06T10:53:40.636887Z",
    "entityType": "rule",
-   "entityId": "8fe79d38-8d52-4391-bd22-e46a69908818",
-   "tagId": "d641a0d0-62b8-4491-8f91-e76dfd5969b5"
+   "entityId": "f21f4939-019a-4d2d-9733-84394d0eb070",
+   "tagId": "e771f30f-0bd8-4c24-adcc-32e4f2cfa524"
   },
   {
    "isDeleted": false,
-   "createdAt": "2025-12-12T11:54:05.451709Z",
-   "updatedAt": "2026-01-06T10:54:14.068883Z",
+   "createdAt": "2025-12-29T05:51:32.858887Z",
+   "updatedAt": "2026-01-06T10:53:40.63306Z",
    "entityType": "rule",
-   "entityId": "8fe79d38-8d52-4391-bd22-e46a69908818",
-   "tagId": "e771f30f-0bd8-4c24-adcc-32e4f2cfa524"
+   "entityId": "f21f4939-019a-4d2d-9733-84394d0eb070",
+   "tagId": "d641a0d0-62b8-4491-8f91-e76dfd5969b5"
   }
  ]
 }
