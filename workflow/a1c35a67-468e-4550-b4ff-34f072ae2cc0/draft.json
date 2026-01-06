@@ -134,15 +134,5 @@
   },
   "comment": "",
   "isDemo": false
- },
- "entityTags": [
-  {
-   "isDeleted": false,
-   "createdAt": "2026-01-05T10:52:15.394791Z",
-   "updatedAt": "2026-01-06T12:11:34.869897Z",
-   "entityType": "workflow",
-   "entityId": "a1c35a67-468e-4550-b4ff-34f072ae2cc0",
-   "tagId": "c6ccb102-2a8a-40b0-894d-a7f8325914c1"
-  }
- ]
+ }
 }
